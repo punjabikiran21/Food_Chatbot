@@ -1,0 +1,18 @@
+version: "3.7"
+
+services:
+  mysql:
+    image: mysql:8.0.36
+    restart: unless-stopped
+    environment:
+      MYSQL_ROOT_PASSWORD: password
+      MYSQL_ROOT_HOST: "%"
+      MYSQL_DATABASE: restaurant_db
+      MYSQL_USER: user
+      MYSQL_PASSWORD: password
+    ports:
+      - "13306:3306"
+    volumes:
+      - ./.data/mysql:/var/lib/mysql
+    command: --default-authentication-plugin=mysql_native_password
+    platform: linux/x86_64

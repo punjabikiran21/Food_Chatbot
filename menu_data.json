@@ -1,0 +1,59 @@
+{
+    "items": [
+        {
+            "name": "Margherita Pizza",
+            "category": "Pizza",
+            "price":400,
+            "description": "Classic pizza with tomato sauce and mozzarella",
+            "ingredients": ["tomato sauce", "mozzarella", "basil","all purpose flour"],
+            "dietary_info": ["vegetarian"]
+        },
+        {
+            "name": "Caesar Salad",
+            "category": "Salad",
+            "price": 150,
+            "description": "Romaine lettuce with Caesar dressing",
+            "ingredients": ["romaine lettuce", "croutons", "parmesan", "caesar dressing"],
+            "dietary_info": ["vegetarian"]
+        },
+        {
+            "name": "Grilled Chicken Salad",
+            "category": "Salad",
+            "price": 250,
+            "description": "Fresh mixed greens with grilled chicken breast",
+            "ingredients": ["mixed greens", "grilled chicken", "cherry tomatoes", "vinaigrette"],
+            "dietary_info": ["non-vegetarian"]
+        },
+        {
+            "name": "Chicken Burger",
+            "category": "Burger",
+            "price": 250,
+            "description": "Grilled chicken burger with lettuce and mayo",
+            "dietary_info": ["non-vegetarian"]
+        },
+        {
+            "name": "Veggie Black Bean Burger",
+            "category": "Burger",
+            "price": 170,
+            "description": "Plant-based burger with black beans and spices",
+            "ingredients": ["black beans", "quinoa", "spices", "vegan bun"],
+            "dietary_info": ["vegetarian", "vegan"]
+        },
+        {
+            "name": "Chocolate Lava Cake",
+            "category": "Desserts",
+            "price": 100,
+            "description": "Warm chocolate cake with molten center",
+            "ingredients": ["chocolate", "flour", "eggs", "butter"],
+            "dietary_info": ["vegetarian"]
+        },
+        {
+        "name": "Fresh Fruit Parfait",
+        "category": "Desserts",
+        "price":200,
+        "description": "Layered yogurt with fresh seasonal fruits",
+        "ingredients": ["yogurt", "mixed berries", "granola"],
+        "dietary_info": ["vegetarian"]
+        }
+        ]
+}
